@@ -6,9 +6,9 @@ def sumar_digitos(numero:int)->int:
     
     else:
         return (numero % 10) + sumar_digitos(numero // 10)
-    #1era llamada     0      +   sumar_digitos(100)
+    #1ra llamada      0      +   sumar_digitos(100)
     #2da llamada      0      +   sumar_digitos(10)
-    #3era llamada     0      +   sumar_digitos(1)
+    #3ra llamada      0      +   sumar_digitos(1)
     #4ta llamada      1      +   sumar_digitos(0)
 
 numero = 1000

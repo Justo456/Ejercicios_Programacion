@@ -11,6 +11,7 @@ def sumar_naturales(numero:int)->int:
 #1er llamada    0   +    1
 #2da llamada    1   +    2
 #3er llamada    2   +    3
+#...
 
 primer_numero_natural = 0
 sumar_naturales(primer_numero_natural)

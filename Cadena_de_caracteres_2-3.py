@@ -4,12 +4,15 @@ lo sucedido.'''
 
 def es_palindromo(cadena:str)->bool:
     '''Retorna si la cadena de caracteres es un palindromo o no'''
+    
     cadena = cadena.lower()
+
+    palindromo = False
 
     if cadena == cadena[::-1]:
         palindromo = True
-    else:
-        palindromo = False
+    
+        
     
     return palindromo
 
